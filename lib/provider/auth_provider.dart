@@ -33,5 +33,4 @@ class AuthLogg extends ChangeNotifier{
     }
     notifyListeners();
   }
-
 }

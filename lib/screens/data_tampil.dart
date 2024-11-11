@@ -18,7 +18,6 @@ class _DataTampilState extends State<DataTampil> {
         title: Text('Data Tampil',
         ),
        actions: [
-
          IconButton(onPressed: (){
            Navigator.push(context,
            MaterialPageRoute(builder: (context)=> UploadFile()));
@@ -26,6 +25,7 @@ class _DataTampilState extends State<DataTampil> {
          icon: const Icon(Icons.upload_file),)
        ],
       ),
+
     );
   }
 }
